@@ -20,7 +20,7 @@ Toolkit.run(
   },
   {
     event: [
-      'pull_request',
+      'pull_request', 'pull_request_review'
     ],
     secrets: ['GITHUB_TOKEN'],
   },
